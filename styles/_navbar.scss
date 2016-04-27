@@ -1,0 +1,51 @@
+.navbar {
+  display: flex;
+  padding: 1rem 0.8rem;
+  font-family: myriad pro;
+}
+
+.navbar-left  {
+  display: flex;
+}
+
+.nav-icon {
+  margin: 0 0.7rem;
+  color: $brand-light-gray;
+}
+
+.slash-symbol {
+  color: $brand-light-gray;
+}
+
+.nav-author {
+  display: flex;
+  flex-grow: 1;
+  color: $brand-white;
+}
+
+.nav-author__name {
+  margin: 0 0.5rem;
+}
+
+.nav-author__text {
+  margin: 0;
+  font-weight: bold;
+}
+
+.navbar-right {
+  display: flex;
+  margin: 0.26rem;
+  color: $brand-light-gray;
+  font-family: myriad pro;
+  font-weight: bolder;
+  list-style: none;
+
+  :nth-child(2) {
+    color: $brand-red;
+  }
+
+
+  &__links {
+    padding: 0 1rem;
+ }
+}
