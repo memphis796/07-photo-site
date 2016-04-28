@@ -1,5 +1,12 @@
 body {
+  margin: 0;
   background-color: $brand-dark-gray;
   color: $brand-white;
   font-family: sans-serif;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }

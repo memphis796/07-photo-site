@@ -8,47 +8,28 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 @import 'font-awesome';
 @import 'navbar';
 @import 'base';
+@import 'main-content';
 
 
 
 
-.top-header {
-  // border-radius: 20%;
-}
 
-.logo {
-  width: 16.7rem;
+
+
+
+
+
+
+
+
+.author-profile {
+  position: relative;
+  max-width: 100%;
   margin: auto;
-}
 
-.logo-image {
-  border-radius: 50%;
-}
-
-
-
-
-
-
-
-.main-info__content {
-  // display: flex;
-  width: 60rem;
-  margin: auto;
-  font-family: myriad pro;
-}
-
-.info-container {
-  width: 50%;
-  margin: auto;
-}
-
-.author-profile__image {
-
-}
-
-.author-image {
-  // display: flex;
+  &__image {
+    width: 100%;
+ }
 }
 
 .author-info {
@@ -73,12 +54,14 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 
 
 .camera__specs {
+  // display: flex;
   color: $brand-lighter-grey;
   font-family: myriad pro;
   font-size: 0.8em;
 }
 
-.camera-type {
+.camera__specs-list__info {
+  display: flex;
   color: $brand-red;
   font-weight: bolder;
 }
