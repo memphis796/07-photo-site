@@ -1,5 +1,6 @@
 @media (max-width: 700px) {
-  .author-profile, .camera__specs {
+  .author-profile,
+  .camera__specs {
     flex-basis: 80%;
     margin: 0 10%;
   }
@@ -20,8 +21,19 @@
     text-align: center;
   }
 
+  .footer {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
 
-.footer-article {
-  display: block;
-}
+  .footer-photo-article {
+    display: block;
+ }
+
+  .footer-article {
+    width: 70%;
+    margin: auto;
+
+ }
 }
