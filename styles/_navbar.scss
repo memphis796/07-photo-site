@@ -40,12 +40,14 @@
   font-weight: bolder;
   list-style: none;
 
-  :nth-child(2) {
-    color: $brand-red;
-  }
-
 
   &__links {
     padding: 0 1rem;
+    color: $brand-light-gray;
+    text-decoration: none;
+
+    :nth-child {
+      color: $brand-red;
+  }
  }
 }

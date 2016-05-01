@@ -1,0 +1,33 @@
+.container {
+
+}
+
+.footer {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+.footer-title {
+  margin: 1rem;
+  color: $brand-white;
+  font-size: 1rem;
+
+}
+
+.footer-photo-article {
+  display: flex;
+  margin: 0 -1rem;
+
+}
+
+.footer-article {
+  flex-grow: 1;
+  max-width: 70%;
+  // min-width: 11.5rem;
+  padding: 1rem;
+}
+
+.footer-article__image {
+  width: 100%;
+}

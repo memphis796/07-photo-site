@@ -3,54 +3,55 @@
 
 
 .main-info__container {
-  width: 100%;
+  width: 75%;
   margin: auto;
-  font-family: myriad pro;
+  // font-family: myriad pro;
 }
 
 .sub__info-container {
-  max-width: $max-content-width;
+  max-width: 50rem;
   margin: auto;
 }
 
 .info-container {
   display: flex;
   flex-wrap: wrap;
-
 }
+
 
 // logo starts here
 
 .logo {
   position: relative;
-  max-width: 9rem;
+  max-width: 6rem;
   margin: auto;
   margin-bottom: $gutter;
+
 
   &-image {
     width: 100%;
     border-radius: 70%;
-  }
+ }
+}
 
-  &-text {
-    position: absolute;
-    right: 15%;
-    bottom: -20%;
-  }
+.logo-text {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin: 0;
 }
 
 .triangle-icon {
   position: absolute;
-  top: 0.5rem;
-  right: 3.5rem;
+  top: -8px;
+  right: 2rem;
   color: $brand-red;
   font-size: 2rem;
   line-height: 3rem;
 }
 
-.logo-image {
-  border-radius: 50%;
-}
+
+
 
 
 //main-content area
