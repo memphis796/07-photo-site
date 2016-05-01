@@ -40,13 +40,17 @@
   font-weight: bolder;
 
 
-  &__links {
+  &__item {
     padding: 0 0.7rem;
     color: $brand-light-gray;
-    text-decoration: none;
 
-    &__item {
-      color: $brand-red;
+    &--mobile-only {
+      display: none;
+    }
   }
- }
+
+  &__link {
+    color: inherit;
+    text-decoration: none;
+  }
 }

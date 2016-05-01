@@ -13,17 +13,18 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 @import 'footer';
 
 
-
-
 .author-profile {
   flex-basis: 50%;
   flex-grow: 1;
   margin-left: 25%;
 
   &__image {
+    @extend %willow;
     width: 100%;
+    filter: grayscale(0.5) contrast(0.95) brightness(0.9);
  }
 }
+
 
 .author-info {
   display: flex;
@@ -78,3 +79,5 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 .camera-type {
   color: $brand-red;
 }
+
+@import 'phone';
