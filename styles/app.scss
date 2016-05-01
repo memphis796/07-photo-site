@@ -30,8 +30,8 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
   align-items: baseline;
 }
 
-.author-name {
-  margin: 0 0 3rem;
+.profile-title {
+  margin: 0 0 2rem;
   color: $brand-lighter-grey;
   font-weight: bolder;
 }
@@ -41,6 +41,15 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
   color: $brand-light-gray;
   font-size: 0.7rem;
   // font-weight: bolder;
+}
+
+.author-name__info {
+  margin: 0;
+}
+
+.author-name {
+  margin-left: 0.2rem;
+  color: $brand-light-gray;
 }
 
 
@@ -64,4 +73,11 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 .camera__specs-items {
   padding: 0 0.8rem;
 
+  :nth-child(3) {
+    margin: 0 2rem;
+  }
+}
+
+.camera-type {
+  color: $brand-red;
 }

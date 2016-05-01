@@ -15,6 +15,8 @@
 
 .slash-symbol {
   color: $brand-light-gray;
+  font-size: 3rem;
+  line-height: 2rem;
 }
 
 .nav-author {
@@ -35,18 +37,15 @@
 .navbar-right {
   display: flex;
   margin: 0.26rem;
-  color: $brand-light-gray;
-  font-family: myriad pro;
   font-weight: bolder;
-  list-style: none;
 
 
   &__links {
-    padding: 0 1rem;
+    padding: 0 0.7rem;
     color: $brand-light-gray;
     text-decoration: none;
 
-    :nth-child {
+    &__item {
       color: $brand-red;
   }
  }
