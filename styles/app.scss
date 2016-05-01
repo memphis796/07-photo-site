@@ -18,7 +18,7 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 .author-profile {
   flex-basis: 50%;
   flex-grow: 1;
-  margin-left: 10rem;
+  margin-left: 25%;
 
   &__image {
     width: 100%;
@@ -58,6 +58,7 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 
 
 .camera__specs {
+  width: 25%;
   // display: flex;
   color: $brand-white;
   font-family: myriad pro;
@@ -71,11 +72,7 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 }
 
 .camera__specs-items {
-  padding: 0 0.8rem;
-
-  :nth-child(3) {
-    margin: 0 2rem;
-  }
+  padding: 0 0.5rem;
 }
 
 .camera-type {
