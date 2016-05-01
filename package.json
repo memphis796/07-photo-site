@@ -12,7 +12,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "cssgram": "^0.1.3",
+    "broccoli-autoprefixer": "^4.1.0",
+    "cssgram": "una/CSSgram",
     "font-awesome": "^4.5.0",
     "normalize-css": "^2.3.1",
     "yoga-sass": "^1.0.1"
