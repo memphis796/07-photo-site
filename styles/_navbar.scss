@@ -1,0 +1,60 @@
+.navbar {
+  display: flex;
+  padding: 1rem 0.8rem;
+  font-family: 'Roboto', sans-serif;;
+}
+
+.navbar-left  {
+  display: flex;
+}
+
+.nav-icon {
+  margin: 0 0.7rem;
+  color: $brand-light-gray;
+}
+
+.slash-symbol {
+  color: $brand-light-gray;
+  font-size: 3rem;
+  line-height: 2rem;
+}
+
+.nav-author {
+  display: flex;
+  flex-grow: 1;
+  color: $brand-white;
+}
+
+.nav-author__name {
+  margin: 0 0.5rem;
+}
+
+.nav-author__text {
+  margin: 0;
+  font-weight: bold;
+}
+
+.navbar-right {
+  display: flex;
+  margin: 0.26rem;
+  font-weight: bolder;
+
+
+  &__item {
+    padding: 0 0.7rem;
+    color: $brand-light-gray;
+
+    &--mobile-only {
+      display: none;
+    }
+  }
+
+  &__link {
+    color: inherit;
+    text-decoration: none;
+  }
+}
+
+.navbar-right-link__item {
+  color: $brand-red;
+}
